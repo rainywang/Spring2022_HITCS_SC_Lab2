@@ -1,4 +1,4 @@
-package startup;
+﻿package startup;
 
 import java.io.File;
 import java.io.IOException;
@@ -31,7 +31,7 @@ import interval.MultiIntervalSet;
  * 
  * Then the similarity between these two sets: 
  * 		{ "happy" = [[0, 1), [2,4)], "sad" = [[1,2)] } 
- * 		{ "sad" = [[1, 2)], "meh" = * [[2,3)], "happy" = [[3,4)] } 
+ * 		{ "sad" = [[1, 2)], "meh" = [[2,3)], "happy" = [[3,4)] } 
  * 
  * would be: (0 + 1 + 0.5 + 1) / (4 - 0) = 0.625
  * 
