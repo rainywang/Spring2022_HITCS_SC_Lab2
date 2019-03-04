@@ -19,7 +19,7 @@ public abstract class IntervalSetTest {
     /**
      * Overridden by implementation-specific test classes.
      * 
-     * @return a new empty graph of the particular implementation being tested
+     * @return a new empty IntervalSet of the particular implementation being tested
      */
     public abstract IntervalSet<String> emptyInstance();
     
@@ -31,7 +31,7 @@ public abstract class IntervalSetTest {
     @Test
     public void testInitialLabelsEmpty() {
         // TODO you may use, change, or remove this test
-        assertEquals("expected new interval set to have no vertices",
+        assertEquals("expected new interval set to have no intervals",
                 Collections.emptySet(), emptyInstance().labels());
     }
     
